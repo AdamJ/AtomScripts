@@ -1,0 +1,16 @@
+{
+  "name": "AtomInstallScripts",
+  "version": "1.0.0",
+  "description": "Adam's environment setup for Atom editor",
+  "scripts": {
+    "sass": "apm install atom-sass",
+    "jade": "apm install atom-jade",
+    "icons": "apm install file-icons",
+    "atom": "npm run sass && npm run jade && npm run icons",
+    "materialUi": "apm install material-ui",
+    "firewatchSyntax": "apm install firewatch-syntax",
+    "themes": "npm run materialUi && npm run firewatchSyntax"
+  },
+  "author": "Adam J. Jolicoeur",
+  "license": "MIT"
+}
