@@ -5,8 +5,13 @@
   "scripts": {
     "sass": "apm install atom-sass",
     "jade": "apm install atom-jade",
+    "beautify": "apm install atom-beautify",
+    "pigments": "apm install pigments",
+    "linter": "apm install linter",
+    "gitControl": "apm install git-control",
     "icons": "apm install file-icons",
-    "atom": "npm run sass && npm run jade && npm run icons",
+    "minimap": "apm install minimap",
+    "atom": "npm run sass && npm run jade && npm run beautify && npm run pigments && npm run linter && npm run gitControl && npm run icons && npm run minimap",
     "materialUi": "apm install material-ui",
     "firewatchSyntax": "apm install firewatch-syntax",
     "themes": "npm run materialUi && npm run firewatchSyntax"
