@@ -2,7 +2,7 @@
 ###setup scripts for Atom editor
 
 ## Installation
-###This installation is written for an OSX environment.
+###This installation is written for an OSX environment and assumes you already have the Atom editor installed.
 
 1. Make sure XCode is installed (for the command line tools)
 2. Install Homebrew
