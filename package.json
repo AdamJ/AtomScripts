@@ -9,11 +9,9 @@
     "pigments": "apm install pigments",
     "linter": "apm install linter",
     "gitControl": "apm install git-control",
-    "split-diff": "apm install split-diff",
-    "split-diff-minimap": "apm install minimap-split-diff",
     "icons": "apm install file-icons",
     "minimap": "apm install minimap",
-    "atom": "npm run sass && npm run jade && npm run beautify && npm run pigments && npm run linter && npm run gitControl && npm run split-diff && npm run split-diff-minimap && npm run icons && npm run minimap",
+    "atom": "npm run sass && npm run jade && npm run beautify && npm run pigments && npm run linter && npm run gitControl && npm run icons && npm run minimap",
     "materialUi": "apm install material-ui",
     "firewatchSyntax": "apm install firewatch-syntax",
     "themes": "npm run materialUi && npm run firewatchSyntax"
