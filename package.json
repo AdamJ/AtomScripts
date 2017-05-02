@@ -1,6 +1,6 @@
 {
   "name": "AtomInstallScripts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Adam's environment setup for Atom editor",
   "scripts": {
     "sass": "apm install atom-sass",
@@ -12,9 +12,9 @@
     "icons": "apm install file-icons",
     "minimap": "apm install minimap",
     "atom": "npm run sass && npm run jade && npm run beautify && npm run pigments && npm run linter && npm run gitControl && npm run icons && npm run minimap",
-    "materialUi": "apm install material-ui",
-    "firewatchSyntax": "apm install firewatch-syntax",
-    "themes": "npm run materialUi && npm run firewatchSyntax"
+    "patternfly-ui": "apm install atom-patternfly-ui",
+    "patternfly-syntax": "apm install atom-patternfly-syntax",
+    "themes": "npm run patternfly-syntax && npm run patternfly-ui"
   },
   "author": "Adam J. Jolicoeur",
   "license": "MIT"
