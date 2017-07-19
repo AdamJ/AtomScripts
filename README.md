@@ -14,11 +14,11 @@
 ## Usage
 There are 3 scripts as part of this. You can use all of them, or only specific ones. I've broken out what each script installs:
 
-1. npm run atom-packages-basic
+1. npm run packages-basic
   - atom beautify
   - file-icons
   - pigments
-* npm run atom-packages-advanced
+* npm run packages-advanced
   - angularjs
   - atom-ng-attr-hint
   - atom-typescript
