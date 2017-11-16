@@ -12,7 +12,14 @@
 4. Navigate to the directory where you dropped the AtomScripts package.json file and run the commands as outline in "Usage".
 
 ## Usage
-There are 3 scripts as part of this. You can use all of them, or only specific ones. I've broken out what each script installs:
+Everything can be installed at one time by using the following command:
+```
+
+npm run all
+
+```
+
+There are 3 scripts as part of this. Here is what each script installs:
 
 1. npm run packages-basic
   - atom beautify
