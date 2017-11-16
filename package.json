@@ -18,7 +18,8 @@
     "packages-advanced": "npm run angularjs && npm run atom-ng-attr-hint && npm run atom-typescript && npm run language-html-angular && npm run linter && npm run linter-htmlhint && npm run linter-lesshint && npm run minimap",
     "patternfly-ui": "apm install atom-patternfly-ui",
     "patternfly-syntax": "apm install atom-patternfly-syntax",
-    "themes": "npm run patternfly-syntax && npm run patternfly-ui"
+    "themes": "npm run patternfly-syntax && npm run patternfly-ui",
+    "all": "npm run packages-basic && npm run packages-advanced && npm run themes"
   },
   "author": "Adam J. Jolicoeur",
   "license": "MIT"
