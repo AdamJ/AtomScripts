@@ -1,6 +1,6 @@
 {
   "name": "AtomInstallScripts",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Adam's environment setup for Atom editor",
   "scripts": {
     "angularjs": "apm install angularjs",
@@ -17,14 +17,15 @@
     "linter-htmlhint": "apm install linter-htmlhint",
     "linter-lesshint": "apm install linter-lesshint",
     "merge-conflicts": "apm install merge-conflicts",
-    "pigments": "apm install pigments",
-    "prettier-atom": "apm install pretter-atom",
     "minimap": "apm install minimap",
+    "pigments": "apm install pigments",
+    "prettier-atom": "apm install prettier-atom",
     "packages-basic": "npm run atom-beautify && npm run file-icons && npm run pigments",
-    "packages-advanced": "npm run angularjs && npm run prettier-atom && merge-conflicts npm run merge-conflicts && npm run jade-beautify && npm run git-control && npm run atom-jade && npm run atom-sass && npm run atom-ng-attr-hint && npm run atom-typescript && npm run language-html-angular && npm run linter && npm run linter-htmlhint && npm run linter-lesshint && npm run minimap",
+    "packages-advanced": "npm run angularjs && npm run prettier-atom && npm run merge-conflicts && npm run jade-beautify && npm run git-control && npm run atom-jade && npm run atom-sass && npm run atom-ng-attr-hint && npm run atom-typescript && npm run language-html-angular && npm run linter && npm run linter-htmlhint && npm run linter-lesshint && npm run minimap",
     "patternfly-ui": "apm install atom-patternfly-ui",
     "patternfly-syntax": "apm install atom-patternfly-syntax",
-    "themes": "npm run patternfly-syntax && npm run patternfly-ui",
+    "seti-ui": "apm install seti-ui",
+    "themes": "npm run patternfly-syntax && npm run patternfly-ui && npm run seti-ui",
     "all": "npm run packages-basic && npm run packages-advanced && npm run themes"
   },
   "author": "Adam J. Jolicoeur",
